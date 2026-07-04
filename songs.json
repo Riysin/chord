@@ -1,0 +1,2281 @@
+[
+  {
+    "title": "白いバラ",
+    "capo": 2,
+    "bpm": 88,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Amaj7",
+        "frets": "x02120",
+        "beats": 4,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 2,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Emadd9/G",
+        "frets": "304400",
+        "beats": 2,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/F#",
+        "frets": "202200",
+        "beats": 2,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 2,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 2,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Am6/G#",
+        "frets": "404500",
+        "beats": 2,
+        "strum": "once"
+      },
+      {
+        "type": "section",
+        "label": "副",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Amaj7",
+        "frets": "x02120",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B",
+        "frets": "x24042",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Am6/G#",
+        "frets": "404500",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/F#",
+        "frets": "202200",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 1,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "G#5",
+        "frets": "404040",
+        "beats": 1,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "E5/D",
+        "frets": "x50450",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Amaj7",
+        "frets": "x02120",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Am",
+        "frets": "x02110",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x04400",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "E/G#",
+        "frets": "403400",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/F#",
+        "frets": "202200",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "022200",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Cmaj7/E",
+        "frets": "022010",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x04400",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "E/G#",
+        "frets": "403400",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/F#",
+        "frets": "202200",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "022200",
+        "beats": 2,
+        "strum": "folk"
+      }
+    ],
+    "timeline": {
+      "audio": "C:\\Users\\Orange\\.chordify_tl_media.mp4",
+      "duration": 50.062222222222225,
+      "marks": []
+    }
+  },
+  {
+    "title": "爪色とガラスの縁",
+    "capo": 1,
+    "bpm": 85,
+    "items": [
+      {
+        "type": "section",
+        "label": "1",
+        "repeat": 3
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32x33",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G/B",
+        "frets": "x20033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4/A",
+        "frets": "x00033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "section",
+        "label": "段落",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32x33",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G/B",
+        "frets": "x20033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4/A",
+        "frets": "x00033",
+        "beats": 1,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 1,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "section",
+        "label": "2",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "G/B",
+        "frets": "x20033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Csus2",
+        "frets": "x30033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G5/D",
+        "frets": "xx0033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G5/E",
+        "frets": "xx2033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "section",
+        "label": "1",
+        "repeat": 3
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32x33",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G/B",
+        "frets": "x20033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4/A",
+        "frets": "x00033",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 2,
+        "strum": ""
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "合鍵とアイロニー",
+    "capo": 0,
+    "bpm": 115,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x21202",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em/B",
+        "frets": "x22000",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 3,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 3,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "D7/A",
+        "frets": "x00212",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 2,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "section",
+        "label": "持ってるね　間奏",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Csus2",
+        "frets": "x30033",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020033",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Csus2",
+        "frets": "x30033",
+        "beats": 2,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "C:\\Users\\Orange\\.chordify_tl_media.mp4",
+      "duration": 50.387301587301586,
+      "marks": []
+    }
+  },
+  {
+    "title": "僕らは孤独だ",
+    "capo": 1,
+    "bpm": 130,
+    "items": [
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 8,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 8,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Em/B",
+        "frets": "x22000",
+        "beats": 8,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Dm7",
+        "frets": "x57565",
+        "beats": 4,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Cm7",
+        "frets": "x35343",
+        "beats": 4,
+        "strum": "once"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Csus4",
+        "frets": "x35463",
+        "beats": 8,
+        "strum": "eighth_down"
+      },
+      {
+        "type": "chord",
+        "name": "D5/B",
+        "frets": "x2023x",
+        "beats": 4,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "A#maj7",
+        "frets": "x11231",
+        "beats": 4,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 8,
+        "strum": "once"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 8,
+        "strum": "once"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "section",
+        "label": "副歌",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Dm7",
+        "frets": "x57565",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Csus4",
+        "frets": "x35463",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "D5/B",
+        "frets": "x2023x",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "section",
+        "label": "僕は孤独だ",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Dm7",
+        "frets": "x57565",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "G7",
+        "frets": "353463",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Csus4",
+        "frets": "x35463",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "D5/B",
+        "frets": "x2023x",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "A#maj7",
+        "frets": "x11231",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Dm7",
+        "frets": "x57565",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "F9/D#",
+        "frets": "x67065",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Csus4",
+        "frets": "x35463",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "D5/B",
+        "frets": "x2023x",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "A#maj7",
+        "frets": "x11231",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Dm7",
+        "frets": "x57565",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "section",
+        "label": "間奏",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "A",
+        "frets": "x02220",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Csus4",
+        "frets": "x35463",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "D5/B",
+        "frets": "x2023x",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "A#maj7",
+        "frets": "x11231",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "Dm7",
+        "frets": "x57565",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": ""
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "夏霞",
+    "capo": 0,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "section",
+        "label": "前奏",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "section",
+        "label": "主",
+        "repeat": 5
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "section",
+        "label": "前奏",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x21202",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "section",
+        "label": "副歌",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x21202",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": ""
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": ""
+      }
+    ],
+    "timeline": {
+      "audio": "C:\\Users\\Orange\\.chordify_tl_media.mp4",
+      "duration": 55.93600907029479,
+      "marks": []
+    }
+  },
+  {
+    "title": "もしも",
+    "capo": 0,
+    "bpm": 90,
+    "items": [],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "会いたくなって　飛んだバイト",
+    "capo": 3,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "022200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "E5/C#",
+        "frets": "x40450",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/F#",
+        "frets": "202200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G#7",
+        "frets": "464544",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "C#m7",
+        "frets": "x46454",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Cm7",
+        "frets": "x35343",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bm7",
+        "frets": "x24232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "E",
+        "frets": "022100",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "022200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus2",
+        "frets": "034400",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus2",
+        "frets": "044400",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/F#",
+        "frets": "202200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Eadd9/G#",
+        "frets": "404400",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am",
+        "frets": "x02210",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "スピード",
+    "capo": 4,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "section",
+        "label": "副歌",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Gsus2",
+        "frets": "300230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x00230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dadd9/F#",
+        "frets": "200230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "F#7",
+        "frets": "242322",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am/C",
+        "frets": "x30230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Gsus2",
+        "frets": "300230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x00230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dadd9/F#",
+        "frets": "200230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4/A#",
+        "frets": "x10230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "F#7",
+        "frets": "242322",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Gsus2",
+        "frets": "300230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x00230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dadd9/F#",
+        "frets": "200230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "F#7",
+        "frets": "242322",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am/C",
+        "frets": "x30230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Gsus2",
+        "frets": "300230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x00230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dadd9/F#",
+        "frets": "200230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dadd9/F#",
+        "frets": "200230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Gsus2",
+        "frets": "300230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x02230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am/E",
+        "frets": "030230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dadd9/F#",
+        "frets": "200230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Gsus2",
+        "frets": "300230",
+        "beats": 1,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x02230",
+        "beats": 1,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "52",
+    "capo": 1,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em7/B",
+        "frets": "x22033",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "section",
+        "label": "花は咲いてゆくのね",
+        "repeat": 1
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x0201x",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4/B",
+        "frets": "x20230",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Cm7",
+        "frets": "x35343",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "E7/B",
+        "frets": "x20100",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "10月無口",
+    "capo": 1,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "E/B",
+        "frets": "x22100",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bsus4",
+        "frets": "x24400",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "C#m7",
+        "frets": "x46600",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "また夏を追う",
+    "capo": 1,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32033",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Dsus4",
+        "frets": "xx0233",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "月と私のかくれんぼ",
+    "capo": 0,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "A7",
+        "frets": "x02020",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cmaj7",
+        "frets": "x32000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bm7",
+        "frets": "x24232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Fmaj7",
+        "frets": "xx3210",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cmaj7",
+        "frets": "x32000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bm7",
+        "frets": "x24232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bmaj7",
+        "frets": "x24342",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em7",
+        "frets": "020000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "A7",
+        "frets": "x02020",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cmaj7",
+        "frets": "x32000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bm7",
+        "frets": "x24232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bmaj7",
+        "frets": "x24342",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cmaj7",
+        "frets": "x32000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Bmaj7",
+        "frets": "x24342",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "Dear. Mr F",
+    "capo": 0,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cmaj7",
+        "frets": "x32000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "悲しいラブソング",
+    "capo": 0,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Dsus2",
+        "frets": "xx0230",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "E",
+        "frets": "022100",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "F#m",
+        "frets": "244222",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus2",
+        "frets": "x02200",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Asus4",
+        "frets": "x02230",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "A",
+        "frets": "x02220",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "君と癖",
+    "capo": 0,
+    "bpm": 90,
+    "items": [
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02012",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Esus4",
+        "frets": "020230",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "C#m6/E",
+        "frets": "010120",
+        "beats": 2,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02010",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Am7",
+        "frets": "x02012",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320033",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "break"
+      },
+      {
+        "type": "chord",
+        "name": "Cadd9",
+        "frets": "x32030",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "D",
+        "frets": "xx0232",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "per_beat"
+      },
+      {
+        "type": "chord",
+        "name": "G",
+        "frets": "320003",
+        "beats": 4,
+        "strum": "per_beat"
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  }
+]
