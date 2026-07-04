@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name="theme-color" content="#1f2933">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>我的和弦譜</title>
+<style>
+  :root{ --bg:#f4f5f7; --surf:#fff; --txt:#1f2933; --sub:#9aa0aa; --acc:#0e7490; --line:#e2e5ea; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:var(--txt);
+    font-family:"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif; }
+  header{ position:sticky; top:0; z-index:5; display:flex; gap:8px; align-items:center;
+    padding:10px 12px; background:var(--surf); border-bottom:1px solid var(--line); }
+  #songSel{ flex:1; min-width:0; font-size:16px; padding:8px 10px; border:1px solid var(--line);
+    border-radius:8px; background:var(--surf); color:var(--txt); }
+  button.ic{ font-size:18px; line-height:1; padding:8px 12px; border:1px solid var(--line);
+    border-radius:8px; background:var(--surf); color:var(--txt); cursor:pointer; }
+  button.ic:active{ background:var(--bg); }
+  main{ padding:14px 12px 40px; }
+  .songtitle{ font-size:22px; font-weight:700; margin:2px 0 14px; }
+  .capo{ font-size:13px; font-weight:600; color:#fff; background:var(--acc);
+    padding:2px 8px; border-radius:999px; margin-left:10px; vertical-align:middle; }
+  .flow{ display:flex; flex-wrap:wrap; align-items:flex-start; gap:4px 10px; }
+  .section{ flex-basis:100%; font-weight:700; color:var(--acc); margin:14px 0 2px; }
+  .brk{ flex-basis:100%; height:0; }
+  .chordbox{ width:112px; }
+  @media (max-width:380px){ .chordbox{ width:96px; } }
+  svg.chord{ width:100%; height:auto; display:block; }
+  .cname{ font:700 11px "Segoe UI",sans-serif; fill:#1f2933; }
+  .fr{ font:7px "Segoe UI",sans-serif; fill:#6b7280; }
+  .mk{ font:700 9px "Segoe UI",sans-serif; fill:#6b7280; }
+  .beats{ text-align:center; font-size:10px; color:var(--sub); line-height:1.1; letter-spacing:1px;
+    white-space:nowrap; overflow:hidden; }
+  .strum{ text-align:center; font-size:10px; color:var(--acc); line-height:1.2; }
+  #status{ position:fixed; bottom:0; left:0; right:0; font-size:12px; color:var(--sub);
+    text-align:center; padding:6px; background:var(--surf); border-top:1px solid var(--line); }
+  .empty{ color:var(--sub); text-align:center; margin-top:60px; line-height:1.8; }
+</style>
+</head>
+<body>
+<header>
+  <select id="songSel"></select>
+  <button class="ic" id="refresh" title="更新">↻</button>
+</header>
+<main id="chart"></main>
+<div id="status">載入中…</div>
+<script>
+const STRUM_GLYPH = {
+  "once":"刷1下","twice":"刷2下","per_beat":"↓↓↓↓","down_up":"↓↑↓↑",
+  "folk":"↓ ↓↑↑↓↑","ballad":"↓ ↓↑↓↑","waltz":"↓↑↑","eighth_down":"↓↓↓↓↓↓↓↓",
+  "palm_mute":"PM↓↓↓↓","palm_quarter":"PM↓↓↓","mute":"××××",
+  "down_mute":"↓×↓×","folk_mute":"↓×↓↑×↑"
+};
+const DEFAULT_STRUM = "per_beat";
+const $ = id => document.getElementById(id);
+const esc = s => String(s==null?"":s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+// Redraw one chord as SVG — mirrors draw_diagram() in chordify_gui.py.
+function drawChord(name, fretsStr){
+  const W=132, H=96, LABEL=14, TOT=H+LABEL;
+  const frets=[];
+  for(const c of (fretsStr||"")){ frets.push(/[xX]/.test(c) ? -1 : (/[0-9]/.test(c) ? parseInt(c,10) : -1)); }
+  while(frets.length<6) frets.push(-1);
+  const played=frets.filter(f=>f>0);
+  const nStr=6, nFr=5;
+  let base=1;
+  if(played.length && Math.max(...played)>nFr){ base=Math.max(1, Math.min(Math.min(...played), 9-nFr+1)); }
+  const gl=22, gr=W-8, gt=24, gb=H-8;
+  const sstep=(gb-gt)/(nStr-1), fstep=(gr-gl)/nFr;
+  const yrow=i => gt + (nStr-1-i)*sstep;   // frets[0]=low E -> bottom row
+  let s=`<svg viewBox="0 0 ${W} ${TOT}" class="chord">`;
+  s+=`<text x="${W/2}" y="12" text-anchor="middle" class="cname">${esc(name)}</text>`;
+  if(base>1) s+=`<text x="${gl+fstep/2}" y="${gt-4}" text-anchor="middle" class="fr">${base}fr</text>`;
+  for(let i=0;i<6;i++){ const f=frets[i], sy=yrow(i);
+    if(f===-1) s+=`<text x="${gl-11}" y="${sy+3}" text-anchor="middle" class="mk">×</text>`;
+    else if(f===0) s+=`<circle cx="${gl-10}" cy="${sy}" r="3.2" fill="none" stroke="#1f2933" stroke-width="1"/>`;
+  }
+  for(let i=0;i<6;i++){ const sy=gt+i*sstep; s+=`<line x1="${gl}" y1="${sy}" x2="${gr}" y2="${sy}" stroke="#333" stroke-width="1"/>`; }
+  for(let j=0;j<=nFr;j++){ const fx=gl+j*fstep, th=(j===0&&base===1)?3:1;
+    s+=`<line x1="${fx}" y1="${gt}" x2="${fx}" y2="${gb}" stroke="#333" stroke-width="${th}"/>`; }
+  const off=base-1;
+  for(let i=0;i<6;i++){ const f=frets[i]; if(f<=0) continue; const shown=f-off;
+    if(shown>=1 && shown<=nFr){ const fx=gl+(shown-0.5)*fstep, sy=yrow(i);
+      s+=`<circle cx="${fx}" cy="${sy}" r="5" fill="#1f2933"/>`; } }
+  return s+"</svg>";
+}
+
+function render(song){
+  const chart=$("chart"); chart.innerHTML="";
+  if(!song){ chart.innerHTML='<div class="empty">還沒有歌曲</div>'; return; }
+  const h=document.createElement("div"); h.className="songtitle";
+  h.textContent=song.title||"未命名";
+  if(song.capo){ const b=document.createElement("span"); b.className="capo"; b.textContent="Capo "+song.capo; h.appendChild(b); }
+  chart.appendChild(h);
+  const flow=document.createElement("div"); flow.className="flow";
+  let has=false;
+  for(const it of (song.items||[])){
+    if(it.type==="section"){ const d=document.createElement("div"); d.className="section";
+      const rep=(it.repeat>1)?("  ×"+it.repeat):""; d.textContent=(it.label||"段落")+rep; flow.appendChild(d); }
+    else if(it.type==="break"){ const d=document.createElement("div"); d.className="brk"; flow.appendChild(d); }
+    else if(it.type==="chord"){ has=true;
+      const box=document.createElement("div"); box.className="chordbox";
+      box.innerHTML=drawChord(it.name, it.frets);
+      const beats=Math.max(1, it.beats||4);
+      const dots=document.createElement("div"); dots.className="beats"; dots.textContent="●".repeat(beats).split("").join(" "); box.appendChild(dots);
+      const g=STRUM_GLYPH[it.strum||DEFAULT_STRUM]; if(g){ const gd=document.createElement("div"); gd.className="strum"; gd.textContent=g; box.appendChild(gd); }
+      flow.appendChild(box); }
+  }
+  chart.appendChild(flow);
+  if(!has && !(song.items||[]).length){ chart.insertAdjacentHTML("beforeend", '<div class="empty">這首還沒有和弦。</div>'); }
+}
+
+let SONGS=[];
+function apply(songs){
+  SONGS=Array.isArray(songs)?songs:[];
+  const sel=$("songSel");
+  const want=localStorage.getItem("chordify_cur")||"";
+  sel.innerHTML="";
+  SONGS.forEach((s,i)=>{ const o=document.createElement("option"); o.value=String(i);
+    o.textContent=s.title||("未命名 "+(i+1)); sel.appendChild(o); });
+  let idx=SONGS.findIndex(s=>(s.title||"")===want);
+  if(idx<0) idx=0;
+  sel.value=String(idx);
+  render(SONGS[idx]);
+}
+function setStatus(t){ $("status").textContent=t; }
+
+$("songSel").addEventListener("change", e=>{
+  const s=SONGS[+e.target.value];
+  if(s) localStorage.setItem("chordify_cur", s.title||"");
+  render(s);
+});
+
+async function load(){
+  setStatus("更新中…");
+  try{
+    const r=await fetch("songs.json?t="+Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const songs=await r.json();
+    localStorage.setItem("chordify_songs", JSON.stringify(songs));
+    apply(songs);
+    setStatus("已更新 "+new Date().toLocaleTimeString());
+  }catch(e){
+    const cached=localStorage.getItem("chordify_songs");
+    if(cached){ apply(JSON.parse(cached)); setStatus("離線：顯示上次同步的資料"); }
+    else setStatus("無法載入 songs.json（"+e.message+"）");
+  }
+}
+$("refresh").addEventListener("click", load);
+document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) load(); });
+load();
+</script>
+</body>
+</html>
+<!--chordify-reader-v3-->
