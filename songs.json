@@ -128,14 +128,14 @@
         "strum": "folk"
       },
       {
-        "type": "break"
-      },
-      {
         "type": "chord",
         "name": "E5/D",
         "frets": "x50450",
         "beats": 2,
         "strum": "folk"
+      },
+      {
+        "type": "break"
       },
       {
         "type": "chord",
