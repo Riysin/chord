@@ -121,14 +121,14 @@
         "strum": "folk"
       },
       {
-        "type": "break"
-      },
-      {
         "type": "chord",
         "name": "E5/C#",
         "frets": "x40450",
         "beats": 4,
         "strum": "folk"
+      },
+      {
+        "type": "break"
       },
       {
         "type": "chord",
