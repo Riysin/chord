@@ -109,8 +109,8 @@
       },
       {
         "type": "chord",
-        "name": "G#5",
-        "frets": "404040",
+        "name": "C",
+        "frets": "x34040",
         "beats": 1,
         "strum": "folk"
       },
