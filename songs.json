@@ -67,8 +67,8 @@
       },
       {
         "type": "chord",
-        "name": "B",
-        "frets": "x24042",
+        "name": "B7",
+        "frets": "x24242",
         "beats": 2,
         "strum": "folk"
       },
