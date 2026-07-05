@@ -5,6 +5,9 @@
     "bpm": 88,
     "items": [
       {
+        "type": "break"
+      },
+      {
         "type": "chord",
         "name": "Amaj7",
         "frets": "x02120",
