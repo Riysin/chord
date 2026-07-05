@@ -26,6 +26,9 @@
         "strum": "once"
       },
       {
+        "type": "break"
+      },
+      {
         "type": "chord",
         "name": "Esus4/F#",
         "frets": "202200",
