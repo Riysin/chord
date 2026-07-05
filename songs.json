@@ -19,6 +19,13 @@
         "strum": "once"
       },
       {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
         "type": "break"
       },
       {
@@ -241,6 +248,20 @@
         "type": "chord",
         "name": "Asus2",
         "frets": "x04400",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
+        "name": "B7",
+        "frets": "x24242",
         "beats": 2,
         "strum": "folk"
       }
