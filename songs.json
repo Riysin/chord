@@ -88,6 +88,13 @@
       },
       {
         "type": "chord",
+        "name": "Emadd9/G",
+        "frets": "304400",
+        "beats": 4,
+        "strum": "folk"
+      },
+      {
+        "type": "chord",
         "name": "Esus4/F#",
         "frets": "202200",
         "beats": 2,
