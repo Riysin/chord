@@ -26,6 +26,13 @@
         "strum": "folk"
       },
       {
+        "type": "chord",
+        "name": "E5",
+        "frets": "040450",
+        "beats": 2,
+        "strum": "folk"
+      },
+      {
         "type": "break"
       },
       {
