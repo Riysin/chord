@@ -12,6 +12,13 @@
         "strum": "once"
       },
       {
+        "type": "chord",
+        "name": "Em",
+        "frets": "022000",
+        "beats": 4,
+        "strum": "once"
+      },
+      {
         "type": "break"
       },
       {
