@@ -336,7 +336,7 @@
         ]
       },
       {
-        "text": "                         ",
+        "text": "                                ",
         "section": false,
         "chords": [
           {
@@ -363,7 +363,7 @@
           {
             "name": "Am6/G#",
             "frets": "404500",
-            "col": 24,
+            "col": 23,
             "beats": 2,
             "strum": "once"
           }
