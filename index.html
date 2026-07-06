@@ -42,6 +42,16 @@
   #status{ position:fixed; bottom:0; left:0; right:0; font-size:12px; color:var(--sub);
     text-align:center; padding:6px; background:var(--surf); border-top:1px solid var(--line); }
   .empty{ color:var(--sub); text-align:center; margin-top:60px; line-height:1.8; }
+  /* lyrics view: words with chords floating above them */
+  .lyrics{ margin-top:6px; }
+  .secline{ font-weight:700; color:var(--acc); margin:18px 0 4px; font-size:15px; }
+  .lyricline{ position:relative; padding-top:22px; margin-bottom:2px;
+    font-family:"Consolas","Menlo","Noto Sans Mono CJK TC","Noto Sans Mono",monospace;
+    font-size:17px; line-height:1.5; white-space:pre; overflow-x:auto; }
+  .lyricline .ltext{ white-space:pre; }
+  .lyricline .chd{ position:absolute; top:0; font:700 12.5px "Segoe UI","Noto Sans TC",sans-serif;
+    color:#fff; background:var(--acc); border-radius:5px; padding:1px 5px; white-space:nowrap;
+    transform:translateX(-3px); }
 </style>
 </head>
 <body>
@@ -99,6 +109,11 @@ function render(song){
   h.textContent=song.title||"未命名";
   if(song.capo){ const b=document.createElement("span"); b.className="capo"; b.textContent="Capo "+song.capo; h.appendChild(b); }
   chart.appendChild(h);
+  // new format: lyrics with chords above the words. Fall back to the old
+  // chord-diagram chart for songs that have no lyrics yet.
+  const lyrics=song.lyrics;
+  const hasLyrics=Array.isArray(lyrics)&&lyrics.some(l=>(l.text&&l.text.trim())||(l.chords&&l.chords.length)||l.section);
+  if(hasLyrics){ renderLyrics(chart, lyrics); return; }
   const flow=document.createElement("div"); flow.className="flow";
   let has=false;
   for(const it of (song.items||[])){
@@ -115,6 +130,44 @@ function render(song){
   }
   chart.appendChild(flow);
   if(!has && !(song.items||[]).length){ chart.insertAdjacentHTML("beforeend", '<div class="empty">這首還沒有和弦。</div>'); }
+}
+
+// measure the pixel width of a line prefix in the SAME font the lyric lines use,
+// so a chord anchored to character N lands exactly above that character (works
+// for CJK + latin alike).
+const LYRIC_FONT='17px "Consolas","Menlo","Noto Sans Mono CJK TC","Noto Sans Mono",monospace';
+const _mc=document.createElement("canvas").getContext("2d");
+function prefixW(s){ _mc.font=LYRIC_FONT; return _mc.measureText(s||"").width; }
+
+function renderLyrics(chart, lyrics){
+  // legend: a fingering diagram for each distinct chord used in the song
+  const seen=new Set(), uniq=[];
+  for(const ln of lyrics){ for(const c of (ln.chords||[])){
+    const k=(c.name||"")+"|"+(c.frets||""); if(!seen.has(k)){ seen.add(k); uniq.push(c); } } }
+  if(uniq.length){
+    const leg=document.createElement("div"); leg.className="flow"; leg.style.margin="4px 0 12px";
+    for(const c of uniq){ const box=document.createElement("div"); box.className="chordbox";
+      box.innerHTML=drawChord(c.name, c.frets); leg.appendChild(box); }
+    chart.appendChild(leg);
+  }
+  const wrap=document.createElement("div"); wrap.className="lyrics";
+  for(const ln of lyrics){
+    if(ln.section){
+      const d=document.createElement("div"); d.className="secline"; d.textContent=ln.text||""; wrap.appendChild(d); continue;
+    }
+    const line=document.createElement("div"); line.className="lyricline";
+    const text=ln.text||"";
+    const txt=document.createElement("span"); txt.className="ltext"; txt.textContent=text||" ";
+    line.appendChild(txt);
+    for(const c of (ln.chords||[])){
+      const chd=document.createElement("span"); chd.className="chd"; chd.textContent=c.name;
+      const col=Math.max(0, c.col|0);
+      chd.style.left=prefixW(text.slice(0,col))+"px";
+      line.appendChild(chd);
+    }
+    wrap.appendChild(line);
+  }
+  chart.appendChild(wrap);
 }
 
 let SONGS=[];
@@ -160,4 +213,4 @@ if("serviceWorker" in navigator){ window.addEventListener("load", ()=>{ navigato
 </script>
 </body>
 </html>
-<!--chordify-reader-v4-->
+<!--chordify-reader-v6-->
