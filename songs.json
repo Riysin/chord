@@ -273,6 +273,306 @@
         "strum": "folk"
       }
     ],
+    "lyrics": [
+      {
+        "text": "                    ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Amaj7",
+            "frets": "x02120",
+            "col": 0,
+            "beats": 4,
+            "strum": "once"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 6,
+            "beats": 4,
+            "strum": "once"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 9,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "E5",
+            "frets": "040450",
+            "col": 13,
+            "beats": 2,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "                ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Amaj7",
+            "frets": "x02120",
+            "col": 0,
+            "beats": 4,
+            "strum": "once"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 6,
+            "beats": 2,
+            "strum": "once"
+          },
+          {
+            "name": "Emadd9/G",
+            "frets": "304400",
+            "col": 15,
+            "beats": 2,
+            "strum": "once"
+          }
+        ]
+      },
+      {
+        "text": "                         ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Esus4/F#",
+            "frets": "202200",
+            "col": 0,
+            "beats": 2,
+            "strum": "once"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 9,
+            "beats": 2,
+            "strum": "once"
+          },
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 18,
+            "beats": 2,
+            "strum": "once"
+          },
+          {
+            "name": "Am6/G#",
+            "frets": "404500",
+            "col": 24,
+            "beats": 2,
+            "strum": "once"
+          }
+        ]
+      },
+      {
+        "text": "副",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "                      ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Amaj7",
+            "frets": "x02120",
+            "col": 0,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "E5",
+            "frets": "040450",
+            "col": 9,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 12,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Emadd9/G",
+            "frets": "304400",
+            "col": 21,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "                           ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Esus4/F#",
+            "frets": "202200",
+            "col": 0,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 9,
+            "beats": 1,
+            "strum": "folk"
+          },
+          {
+            "name": "C",
+            "frets": "x34040",
+            "col": 18,
+            "beats": 1,
+            "strum": "folk"
+          },
+          {
+            "name": "E5/C#",
+            "frets": "x40450",
+            "col": 20,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "E5/D",
+            "frets": "x50450",
+            "col": 26,
+            "beats": 2,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "                                    ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Amaj7",
+            "frets": "x02120",
+            "col": 0,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Am",
+            "frets": "x02110",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Asus2",
+            "frets": "x04400",
+            "col": 9,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "E/G#",
+            "frets": "403400",
+            "col": 15,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Esus4/F#",
+            "frets": "202200",
+            "col": 20,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Esus4",
+            "frets": "022200",
+            "col": 29,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Cmaj7/E",
+            "frets": "022010",
+            "col": 35,
+            "beats": 2,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "                     ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x04400",
+            "col": 0,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "E/G#",
+            "frets": "403400",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Esus4/F#",
+            "frets": "202200",
+            "col": 11,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Esus4",
+            "frets": "022200",
+            "col": 20,
+            "beats": 2,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "          ",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x04400",
+            "col": 0,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 9,
+            "beats": 2,
+            "strum": "folk"
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "C:\\Users\\Orange\\.chordify_tl_media.mp4",
       "duration": 50.062222222222225,
@@ -425,6 +725,171 @@
         "frets": "320033",
         "beats": 2,
         "strum": ""
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "1",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32x33",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G/B",
+            "frets": "x20033",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4/A",
+            "frets": "x00033",
+            "col": 10,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 18,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "段落",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32x33",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G/B",
+            "frets": "x20033",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4/A",
+            "frets": "x00033",
+            "col": 10,
+            "beats": 1,
+            "strum": ""
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 18,
+            "beats": 1,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 20,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "2",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G/B",
+            "frets": "x20033",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Csus2",
+            "frets": "x30033",
+            "col": 4,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G5/D",
+            "frets": "xx0033",
+            "col": 10,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G5/E",
+            "frets": "xx2033",
+            "col": 15,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "1",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32x33",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G/B",
+            "frets": "x20033",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4/A",
+            "frets": "x00033",
+            "col": 10,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 18,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
       }
     ],
     "timeline": {
@@ -659,6 +1124,257 @@
         "frets": "x30033",
         "beats": 2,
         "strum": "per_beat"
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 8,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 11,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "B7",
+            "frets": "x21202",
+            "col": 16,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Em/B",
+            "frets": "x22000",
+            "col": 8,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 13,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 6,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 3,
+            "strum": ""
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 6,
+            "beats": 3,
+            "strum": ""
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 12,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "D7/A",
+            "frets": "x00212",
+            "col": 16,
+            "beats": 2,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 21,
+            "beats": 2,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "持ってるね　間奏",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus2",
+            "frets": "x30033",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 12,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em7",
+            "frets": "020033",
+            "col": 15,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus2",
+            "frets": "x30033",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
@@ -1047,6 +1763,418 @@
         "strum": ""
       }
     ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 8,
+            "strum": "once"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 8,
+            "strum": "once"
+          },
+          {
+            "name": "Em/B",
+            "frets": "x22000",
+            "col": 5,
+            "beats": 8,
+            "strum": "once"
+          },
+          {
+            "name": "Dm7",
+            "frets": "x57565",
+            "col": 10,
+            "beats": 4,
+            "strum": "once"
+          },
+          {
+            "name": "Cm7",
+            "frets": "x35343",
+            "col": 14,
+            "beats": 4,
+            "strum": "once"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus4",
+            "frets": "x35463",
+            "col": 0,
+            "beats": 8,
+            "strum": "eighth_down"
+          },
+          {
+            "name": "D5/B",
+            "frets": "x2023x",
+            "col": 6,
+            "beats": 4,
+            "strum": "once"
+          },
+          {
+            "name": "A#maj7",
+            "frets": "x11231",
+            "col": 11,
+            "beats": 4,
+            "strum": "once"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 18,
+            "beats": 8,
+            "strum": "once"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 22,
+            "beats": 8,
+            "strum": "once"
+          }
+        ]
+      },
+      {
+        "text": "副歌",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 5,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Dm7",
+            "frets": "x57565",
+            "col": 8,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus4",
+            "frets": "x35463",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "D5/B",
+            "frets": "x2023x",
+            "col": 6,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 11,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 15,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "僕は孤独だ",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 5,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Dm7",
+            "frets": "x57565",
+            "col": 8,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "G7",
+            "frets": "353463",
+            "col": 12,
+            "beats": 2,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus4",
+            "frets": "x35463",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "D5/B",
+            "frets": "x2023x",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "A#maj7",
+            "frets": "x11231",
+            "col": 11,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 18,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 22,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Dm7",
+            "frets": "x57565",
+            "col": 5,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "F9/D#",
+            "frets": "x67065",
+            "col": 9,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus4",
+            "frets": "x35463",
+            "col": 0,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "D5/B",
+            "frets": "x2023x",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "A#maj7",
+            "frets": "x11231",
+            "col": 11,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 18,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Dm7",
+            "frets": "x57565",
+            "col": 22,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "間奏",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 5,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "A",
+            "frets": "x02220",
+            "col": 8,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Csus4",
+            "frets": "x35463",
+            "col": 0,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "D5/B",
+            "frets": "x2023x",
+            "col": 6,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "A#maj7",
+            "frets": "x11231",
+            "col": 11,
+            "beats": 2,
+            "strum": "folk"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 18,
+            "beats": 4,
+            "strum": "folk"
+          },
+          {
+            "name": "Dm7",
+            "frets": "x57565",
+            "col": 22,
+            "beats": 4,
+            "strum": "folk"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "",
       "duration": 0.0,
@@ -1239,6 +2367,218 @@
         "strum": ""
       }
     ],
+    "lyrics": [
+      {
+        "text": "前奏",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Em7",
+            "frets": "020033",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 16,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "主",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Em7",
+            "frets": "020033",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 16,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "前奏",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Em7",
+            "frets": "020033",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "B7",
+            "frets": "x21202",
+            "col": 16,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "副歌",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Em7",
+            "frets": "020033",
+            "col": 12,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 16,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "B7",
+            "frets": "x21202",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Em7",
+            "frets": "020033",
+            "col": 9,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 13,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": ""
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": ""
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "C:\\Users\\Orange\\.chordify_tl_media.mp4",
       "duration": 55.93600907029479,
@@ -1250,6 +2590,13 @@
     "capo": 0,
     "bpm": 90,
     "items": [],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": []
+      }
+    ],
     "timeline": {
       "audio": "",
       "duration": 0.0,
@@ -1422,6 +2769,191 @@
         "frets": "x02200",
         "beats": 4,
         "strum": "per_beat"
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4",
+            "frets": "022200",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "E5/C#",
+            "frets": "x40450",
+            "col": 21,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Esus4/F#",
+            "frets": "202200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G#7",
+            "frets": "464544",
+            "col": 9,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "C#m7",
+            "frets": "x46454",
+            "col": 13,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Cm7",
+            "frets": "x35343",
+            "col": 18,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bm7",
+            "frets": "x24232",
+            "col": 22,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "E",
+            "frets": "022100",
+            "col": 26,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4",
+            "frets": "022200",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus2",
+            "frets": "034400",
+            "col": 21,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus2",
+            "frets": "044400",
+            "col": 27,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Esus4/F#",
+            "frets": "202200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Eadd9/G#",
+            "frets": "404400",
+            "col": 9,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 18,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am",
+            "frets": "x02210",
+            "col": 24,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
@@ -1741,6 +3273,346 @@
         "strum": "per_beat"
       }
     ],
+    "lyrics": [
+      {
+        "text": "副歌",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Gsus2",
+            "frets": "300230",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x00230",
+            "col": 6,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 12,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dadd9/F#",
+            "frets": "200230",
+            "col": 20,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "F#7",
+            "frets": "242322",
+            "col": 3,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 7,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am/C",
+            "frets": "x30230",
+            "col": 15,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Gsus2",
+            "frets": "300230",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x00230",
+            "col": 6,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dadd9/F#",
+            "frets": "200230",
+            "col": 12,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4/A#",
+            "frets": "x10230",
+            "col": 21,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 30,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "F#7",
+            "frets": "242322",
+            "col": 3,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Gsus2",
+            "frets": "300230",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x00230",
+            "col": 6,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 12,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dadd9/F#",
+            "frets": "200230",
+            "col": 20,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "F#7",
+            "frets": "242322",
+            "col": 3,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 7,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am/C",
+            "frets": "x30230",
+            "col": 15,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Gsus2",
+            "frets": "300230",
+            "col": 0,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x00230",
+            "col": 6,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dadd9/F#",
+            "frets": "200230",
+            "col": 12,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 21,
+            "beats": 2,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 0,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dadd9/F#",
+            "frets": "200230",
+            "col": 3,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Gsus2",
+            "frets": "300230",
+            "col": 12,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x02230",
+            "col": 18,
+            "beats": 1,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 0,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 3,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am/E",
+            "frets": "030230",
+            "col": 9,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 14,
+            "beats": 1,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 0,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dadd9/F#",
+            "frets": "200230",
+            "col": 3,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Gsus2",
+            "frets": "300230",
+            "col": 12,
+            "beats": 1,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x02230",
+            "col": 18,
+            "beats": 1,
+            "strum": "per_beat"
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "",
       "duration": 0.0,
@@ -1824,6 +3696,88 @@
         "strum": "per_beat"
       }
     ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em7/B",
+            "frets": "x22033",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 18,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "花は咲いてゆくのね",
+        "section": true,
+        "chords": []
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Am7",
+            "frets": "x0201x",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4/B",
+            "frets": "x20230",
+            "col": 4,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Cm7",
+            "frets": "x35343",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 16,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "E7/B",
+            "frets": "x20100",
+            "col": 18,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "",
       "duration": 0.0,
@@ -1864,6 +3818,42 @@
         "strum": "per_beat"
       }
     ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "E/B",
+            "frets": "x22100",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bsus4",
+            "frets": "x24400",
+            "col": 10,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "C#m7",
+            "frets": "x46600",
+            "col": 16,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "",
       "duration": 0.0,
@@ -1888,6 +3878,28 @@
         "frets": "xx0233",
         "beats": 4,
         "strum": "per_beat"
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32033",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Dsus4",
+            "frets": "xx0233",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
@@ -2120,6 +4132,247 @@
         "strum": "per_beat"
       }
     ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em7",
+            "frets": "020000",
+            "col": 5,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "A7",
+            "frets": "x02020",
+            "col": 9,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cmaj7",
+            "frets": "x32000",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bm7",
+            "frets": "x24232",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 10,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 14,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 2,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em7",
+            "frets": "020000",
+            "col": 5,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Fmaj7",
+            "frets": "xx3210",
+            "col": 9,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cmaj7",
+            "frets": "x32000",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bm7",
+            "frets": "x24232",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bmaj7",
+            "frets": "x24342",
+            "col": 10,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 16,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 20,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 22,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "B7",
+            "frets": "x24242",
+            "col": 24,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em7",
+            "frets": "020000",
+            "col": 27,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "A7",
+            "frets": "x02020",
+            "col": 31,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cmaj7",
+            "frets": "x32000",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bm7",
+            "frets": "x24232",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bmaj7",
+            "frets": "x24342",
+            "col": 10,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 16,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 20,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cmaj7",
+            "frets": "x32000",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Bmaj7",
+            "frets": "x24342",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      }
+    ],
     "timeline": {
       "audio": "",
       "duration": 0.0,
@@ -2168,6 +4421,55 @@
         "frets": "320003",
         "beats": 4,
         "strum": "per_beat"
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cmaj7",
+            "frets": "x32000",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 8,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 11,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
@@ -2222,6 +4524,56 @@
         "frets": "x02220",
         "beats": 4,
         "strum": "per_beat"
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Dsus2",
+            "frets": "xx0230",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "E",
+            "frets": "022100",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "F#m",
+            "frets": "244222",
+            "col": 8,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus2",
+            "frets": "x02200",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Asus4",
+            "frets": "x02230",
+            "col": 18,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "A",
+            "frets": "x02220",
+            "col": 24,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
@@ -2345,6 +4697,131 @@
         "frets": "320003",
         "beats": 4,
         "strum": "per_beat"
+      }
+    ],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 12,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02012",
+            "col": 16,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 20,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Esus4",
+            "frets": "020230",
+            "col": 6,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "C#m6/E",
+            "frets": "010120",
+            "col": 12,
+            "beats": 2,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02010",
+            "col": 19,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x02012",
+            "col": 23,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320033",
+            "col": 27,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "",
+        "section": false,
+        "chords": [
+          {
+            "name": "Cadd9",
+            "frets": "x32030",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "D",
+            "frets": "xx0232",
+            "col": 6,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
+            "col": 8,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 11,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
