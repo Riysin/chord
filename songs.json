@@ -363,7 +363,7 @@
           {
             "name": "Am6/G#",
             "frets": "404500",
-            "col": 23,
+            "col": 24,
             "beats": 2,
             "strum": "once"
           }
@@ -547,30 +547,8 @@
       },
       {
         "text": "          ",
-        "section": false,
-        "chords": [
-          {
-            "name": "Asus2",
-            "frets": "x04400",
-            "col": 0,
-            "beats": 2,
-            "strum": "folk"
-          },
-          {
-            "name": "B7",
-            "frets": "x24242",
-            "col": 6,
-            "beats": 2,
-            "strum": "folk"
-          },
-          {
-            "name": "B7",
-            "frets": "x24242",
-            "col": 9,
-            "beats": 2,
-            "strum": "folk"
-          }
-        ]
+        "section": true,
+        "chords": []
       }
     ],
     "timeline": {
