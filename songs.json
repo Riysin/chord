@@ -4815,7 +4815,7 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                                                   ",
+        "text": "                                                                       ",
         "section": false,
         "chords": [
           {
@@ -4849,7 +4849,7 @@
           {
             "name": "Am7",
             "frets": "x00010",
-            "col": 46,
+            "col": 71,
             "beats": 4,
             "strum": "per_beat"
           }
