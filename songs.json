@@ -4817,7 +4817,15 @@
       {
         "text": "",
         "section": false,
-        "chords": []
+        "chords": [
+          {
+            "name": "Am",
+            "frets": "x02210",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
