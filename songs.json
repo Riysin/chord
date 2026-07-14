@@ -4815,7 +4815,7 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                                                                       ",
+        "text": "                                                                        ",
         "section": false,
         "chords": [
           {
@@ -4847,8 +4847,15 @@
             "strum": "per_beat"
           },
           {
-            "name": "Am7",
-            "frets": "x00010",
+            "name": "Am",
+            "frets": "x02210",
+            "col": 71,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em",
+            "frets": "022000",
             "col": 71,
             "beats": 4,
             "strum": "per_beat"
