@@ -4562,7 +4562,7 @@
   },
   {
     "title": "君と癖",
-    "capo": 2,
+    "capo": 0,
     "bpm": 90,
     "items": [
       {
@@ -4679,7 +4679,7 @@
     ],
     "lyrics": [
       {
-        "text": "",
+        "text": "                     ",
         "section": false,
         "chords": [
           {
@@ -4720,7 +4720,7 @@
         ]
       },
       {
-        "text": "",
+        "text": "                            ",
         "section": false,
         "chords": [
           {
@@ -4768,7 +4768,7 @@
         ]
       },
       {
-        "text": "",
+        "text": "                                             ",
         "section": false,
         "chords": [
           {
@@ -4795,74 +4795,7 @@
           {
             "name": "G",
             "frets": "320003",
-            "col": 11,
-            "beats": 4,
-            "strum": "per_beat"
-          }
-        ]
-      }
-    ],
-    "timeline": {
-      "audio": "",
-      "duration": 0.0,
-      "marks": []
-    }
-  },
-  {
-    "title": "赤い糸",
-    "capo": 1,
-    "bpm": 90,
-    "items": [],
-    "lyrics": [
-      {
-        "text": "                                                   ",
-        "section": false,
-        "chords": [
-          {
-            "name": "Am",
-            "frets": "x02210",
-            "col": 4,
-            "beats": 4,
-            "strum": "per_beat"
-          },
-          {
-            "name": "Em",
-            "frets": "022000",
-            "col": 15,
-            "beats": 4,
-            "strum": "per_beat"
-          },
-          {
-            "name": "G",
-            "frets": "320003",
-            "col": 30,
-            "beats": 4,
-            "strum": "per_beat"
-          },
-          {
-            "name": "Am7",
-            "frets": "x00010",
-            "col": 48,
-            "beats": 4,
-            "strum": "per_beat"
-          }
-        ]
-      },
-      {
-        "text": "",
-        "section": false,
-        "chords": [
-          {
-            "name": "C7",
-            "frets": "x32313",
-            "col": 0,
-            "beats": 4,
-            "strum": "per_beat"
-          },
-          {
-            "name": "C7",
-            "frets": "x32313",
-            "col": 0,
+            "col": 35,
             "beats": 4,
             "strum": "per_beat"
           }
