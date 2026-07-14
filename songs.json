@@ -295,14 +295,14 @@
           {
             "name": "B7",
             "frets": "x24242",
-            "col": 9,
+            "col": 16,
             "beats": 2,
             "strum": "folk"
           },
           {
             "name": "E5",
             "frets": "040450",
-            "col": 40,
+            "col": 28,
             "beats": 2,
             "strum": "folk"
           }
