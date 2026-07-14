@@ -4815,7 +4815,7 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                                                                       ",
+        "text": "                                              ",
         "section": false,
         "chords": [
           {
@@ -4838,11 +4838,42 @@
             "col": 30,
             "beats": 4,
             "strum": "per_beat"
-          },
+          }
+        ]
+      },
+      {
+        "text": "     ",
+        "section": false,
+        "chords": [
           {
             "name": "Am7",
             "frets": "x00010",
-            "col": 33,
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
+      },
+      {
+        "text": "                              ",
+        "section": false,
+        "chords": []
+      },
+      {
+        "text": "                                                                     ",
+        "section": false,
+        "chords": [
+          {
+            "name": "C7",
+            "frets": "x32313",
+            "col": 69,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "C7",
+            "frets": "x32313",
+            "col": 69,
             "beats": 4,
             "strum": "per_beat"
           }
