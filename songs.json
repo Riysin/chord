@@ -4815,7 +4815,7 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                                    ",
+        "text": "                                                   ",
         "section": false,
         "chords": [
           {
@@ -4835,7 +4835,14 @@
           {
             "name": "G",
             "frets": "320003",
-            "col": 32,
+            "col": 29,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x00010",
+            "col": 45,
             "beats": 4,
             "strum": "per_beat"
           }
