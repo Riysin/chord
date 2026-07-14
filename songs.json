@@ -4849,9 +4849,17 @@
         ]
       },
       {
-        "text": "",
+        "text": " ",
         "section": false,
-        "chords": []
+        "chords": [
+          {
+            "name": "Am7",
+            "frets": "x00010",
+            "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          }
+        ]
       }
     ],
     "timeline": {
