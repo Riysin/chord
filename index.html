@@ -42,21 +42,34 @@
   #status{ position:fixed; bottom:0; left:0; right:0; font-size:12px; color:var(--sub);
     text-align:center; padding:6px; background:var(--surf); border-top:1px solid var(--line); }
   .empty{ color:var(--sub); text-align:center; margin-top:60px; line-height:1.8; }
-  /* lyrics view: words with chords floating above them */
-  .lyrics{ margin-top:6px; }
-  .secline{ font-weight:700; color:var(--acc); margin:18px 0 4px; font-size:15px; }
-  .lyricline{ position:relative; padding-top:22px; margin-bottom:2px;
-    font-family:"Consolas","Menlo","Noto Sans Mono CJK TC","Noto Sans Mono",monospace;
-    font-size:17px; line-height:1.5; white-space:pre; overflow-x:auto; }
-  .lyricline .ltext{ white-space:pre; }
-  .lyricline .chd{ position:absolute; top:0; font:700 12.5px "Segoe UI","Noto Sans TC",sans-serif;
-    color:#fff; background:var(--acc); border-radius:5px; padding:1px 5px; white-space:nowrap;
-    transform:translateX(-3px); }
+  /* lyrics view: each chord is stacked directly above its own syllable. A line
+     is a row of inline-block segments (chord + the text under it), so a wide
+     chord name pushes the following text to the right instead of overlapping
+     the next chord — no more crammed chords, and every diagram-less phone font
+     works. */
+  .lyrics{ margin-top:6px;
+    font-family:"Consolas","Menlo","Noto Sans Mono CJK TC","Noto Sans Mono",monospace; }
+  .secline{ font-weight:700; color:var(--acc); margin:18px 0 4px; font-size:15px;
+    font-family:"Segoe UI","Noto Sans TC",sans-serif; }
+  .lyricline{ margin-bottom:8px; }
+  .seg{ display:inline-block; vertical-align:bottom; }
+  .seg .cc{ display:block; height:17px; white-space:nowrap; padding-right:10px;
+    font:700 12.5px "Segoe UI","Noto Sans TC",sans-serif; color:var(--acc); }
+  .seg .tt{ display:block; white-space:pre; font-size:17px; min-height:23px; line-height:1.35; }
+  /* inline mode ("按法"): each chord shows its own fingering diagram stacked
+     directly above its syllable instead of just the chord name. The diagram box
+     is a fixed width, so — like the name segments — it stretches its own segment
+     and pushes the next one over, never overlapping the neighbouring chord. */
+  .lyrics.inline .seg .cc{ height:auto; padding-right:8px; }
+  .seg .dg{ display:block; width:62px; }
+  @media (max-width:380px){ .seg .dg{ width:52px; } }
+  .seg .dg svg.chord{ width:100%; }
 </style>
 </head>
 <body>
 <header>
   <select id="songSel"></select>
+  <button class="ic" id="modeBtn" title="切換：和弦名稱 / 按法圖">名稱</button>
   <button class="ic" id="refresh" title="更新">↻</button>
 </header>
 <main id="chart"></main>
@@ -132,45 +145,78 @@ function render(song){
   if(!has && !(song.items||[]).length){ chart.insertAdjacentHTML("beforeend", '<div class="empty">這首還沒有和弦。</div>'); }
 }
 
-// measure the pixel width of a line prefix in the SAME font the lyric lines use,
-// so a chord anchored to character N lands exactly above that character (works
-// for CJK + latin alike).
-const LYRIC_FONT='17px "Consolas","Menlo","Noto Sans Mono CJK TC","Noto Sans Mono",monospace';
-const _mc=document.createElement("canvas").getContext("2d");
-function prefixW(s){ _mc.font=LYRIC_FONT; return _mc.measureText(s||"").width; }
+// Build one lyric line: split the text at every chord column into segments and
+// stack each chord above the segment that starts at its column. Because the
+// segments are inline-blocks, a chord wider than its syllable stretches its own
+// segment and shoves the next one over — chords can never overlap.
+function buildLyricLine(ln, mode){
+  const line=document.createElement("div"); line.className="lyricline";
+  const text=ln.text||"";
+  const chords=(ln.chords||[])
+    .map(c=>({name:c.name||"", frets:c.frets||"", col:Math.min(text.length, Math.max(0, c.col|0))}))
+    .sort((a,b)=>a.col-b.col);
+  const addSeg=(chord, txt)=>{
+    const seg=document.createElement("span"); seg.className="seg";
+    const cc=document.createElement("span"); cc.className="cc";
+    if(chord){
+      if(mode==="inline"){
+        const dg=document.createElement("span"); dg.className="dg";
+        dg.innerHTML=drawChord(chord.name, chord.frets); cc.appendChild(dg);
+      }else{
+        cc.textContent=chord.name;
+      }
+    }
+    const tt=document.createElement("span"); tt.className="tt"; tt.textContent=txt;
+    seg.appendChild(cc); seg.appendChild(tt); line.appendChild(seg);
+  };
+  if(!chords.length){ addSeg(null, text||" "); return line; }
+  if(chords[0].col>0) addSeg(null, text.slice(0, chords[0].col));
+  for(let i=0;i<chords.length;i++){
+    const end=(i+1<chords.length)?chords[i+1].col:text.length;
+    addSeg(chords[i], text.slice(chords[i].col, end));
+  }
+  return line;
+}
 
 function renderLyrics(chart, lyrics){
-  // legend: a fingering diagram for each distinct chord used in the song
-  const seen=new Set(), uniq=[];
-  for(const ln of lyrics){ for(const c of (ln.chords||[])){
-    const k=(c.name||"")+"|"+(c.frets||""); if(!seen.has(k)){ seen.add(k); uniq.push(c); } } }
-  if(uniq.length){
-    const leg=document.createElement("div"); leg.className="flow"; leg.style.margin="4px 0 12px";
-    for(const c of uniq){ const box=document.createElement("div"); box.className="chordbox";
-      box.innerHTML=drawChord(c.name, c.frets); leg.appendChild(box); }
-    chart.appendChild(leg);
+  // "名稱" mode: chord names sit above the words and a legend row of fingering
+  // diagrams (one per distinct chord) sits at the top. "按法" (inline) mode drops
+  // the legend because every chord already draws its own diagram over its word.
+  if(MODE!=="inline"){
+    const seen=new Set(), uniq=[];
+    for(const ln of lyrics){ for(const c of (ln.chords||[])){
+      const k=(c.name||"")+"|"+(c.frets||""); if(!seen.has(k)){ seen.add(k); uniq.push(c); } } }
+    if(uniq.length){
+      const leg=document.createElement("div"); leg.className="flow"; leg.style.margin="4px 0 12px";
+      for(const c of uniq){ const box=document.createElement("div"); box.className="chordbox";
+        box.innerHTML=drawChord(c.name, c.frets); leg.appendChild(box); }
+      chart.appendChild(leg);
+    }
   }
-  const wrap=document.createElement("div"); wrap.className="lyrics";
+  const wrap=document.createElement("div"); wrap.className="lyrics"+(MODE==="inline"?" inline":"");
   for(const ln of lyrics){
     if(ln.section){
       const d=document.createElement("div"); d.className="secline"; d.textContent=ln.text||""; wrap.appendChild(d); continue;
     }
-    const line=document.createElement("div"); line.className="lyricline";
-    const text=ln.text||"";
-    const txt=document.createElement("span"); txt.className="ltext"; txt.textContent=text||" ";
-    line.appendChild(txt);
-    for(const c of (ln.chords||[])){
-      const chd=document.createElement("span"); chd.className="chd"; chd.textContent=c.name;
-      const col=Math.max(0, c.col|0);
-      chd.style.left=prefixW(text.slice(0,col))+"px";
-      line.appendChild(chd);
-    }
-    wrap.appendChild(line);
+    wrap.appendChild(buildLyricLine(ln, MODE));
   }
   chart.appendChild(wrap);
 }
 
 let SONGS=[];
+// how chords show in the lyrics view: "legend" = chord names + a diagram legend
+// at the top; "inline" = a fingering diagram stacked above each word. Persisted
+// so the phone remembers the choice.
+let MODE = localStorage.getItem("chordify_mode")==="inline" ? "inline" : "legend";
+function updateModeBtn(){ $("modeBtn").textContent = MODE==="inline" ? "按法" : "名稱"; }
+function currentSong(){ const v=$("songSel").value; return v===""?null:SONGS[+v]; }
+$("modeBtn").addEventListener("click", ()=>{
+  MODE = MODE==="inline" ? "legend" : "inline";
+  localStorage.setItem("chordify_mode", MODE);
+  updateModeBtn();
+  render(currentSong());
+});
+updateModeBtn();
 function apply(songs){
   SONGS=Array.isArray(songs)?songs:[];
   const sel=$("songSel");
@@ -213,4 +259,4 @@ if("serviceWorker" in navigator){ window.addEventListener("load", ()=>{ navigato
 </script>
 </body>
 </html>
-<!--chordify-reader-v6-->
+<!--chordify-reader-v8-->
