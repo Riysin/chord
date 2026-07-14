@@ -275,7 +275,7 @@
     ],
     "lyrics": [
       {
-        "text": "                    ",
+        "text": "                                                     ",
         "section": false,
         "chords": [
           {
@@ -302,7 +302,7 @@
           {
             "name": "E5",
             "frets": "040450",
-            "col": 13,
+            "col": 40,
             "beats": 2,
             "strum": "folk"
           }
