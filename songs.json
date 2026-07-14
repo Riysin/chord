@@ -4815,13 +4815,13 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                                                   ",
+        "text": "                                                           ",
         "section": false,
         "chords": [
           {
             "name": "Am",
             "frets": "x02210",
-            "col": 5,
+            "col": 4,
             "beats": 4,
             "strum": "per_beat"
           },
@@ -4835,14 +4835,14 @@
           {
             "name": "G",
             "frets": "320003",
-            "col": 29,
+            "col": 30,
             "beats": 4,
             "strum": "per_beat"
           },
           {
             "name": "Am7",
             "frets": "x00010",
-            "col": 45,
+            "col": 46,
             "beats": 4,
             "strum": "per_beat"
           }
