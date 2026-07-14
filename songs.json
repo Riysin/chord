@@ -4815,7 +4815,7 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                           ",
+        "text": "                                    ",
         "section": false,
         "chords": [
           {
@@ -4829,6 +4829,13 @@
             "name": "Em",
             "frets": "022000",
             "col": 15,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "G",
+            "frets": "320003",
+            "col": 33,
             "beats": 4,
             "strum": "per_beat"
           }
