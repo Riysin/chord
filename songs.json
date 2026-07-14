@@ -4815,7 +4815,7 @@
     "items": [],
     "lyrics": [
       {
-        "text": "                                                           ",
+        "text": "                                                   ",
         "section": false,
         "chords": [
           {
@@ -4842,6 +4842,13 @@
           {
             "name": "Am7",
             "frets": "x00010",
+            "col": 33,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Am7",
+            "frets": "x00010",
             "col": 46,
             "beats": 4,
             "strum": "per_beat"
@@ -4849,17 +4856,9 @@
         ]
       },
       {
-        "text": " ",
+        "text": "",
         "section": false,
-        "chords": [
-          {
-            "name": "Am7",
-            "frets": "x00010",
-            "col": 0,
-            "beats": 4,
-            "strum": "per_beat"
-          }
-        ]
+        "chords": []
       }
     ],
     "timeline": {
