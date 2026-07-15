@@ -4815,13 +4815,20 @@
     "items": [],
     "lyrics": [
       {
-        "text": " ",
+        "text": "     ",
         "section": false,
         "chords": [
           {
             "name": "Am",
             "frets": "x02210",
             "col": 0,
+            "beats": 4,
+            "strum": "per_beat"
+          },
+          {
+            "name": "Em7",
+            "frets": "020000",
+            "col": 4,
             "beats": 4,
             "strum": "per_beat"
           }
