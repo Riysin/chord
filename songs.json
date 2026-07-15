@@ -3676,7 +3676,7 @@
     ],
     "lyrics": [
       {
-        "text": "",
+        "text": "                   ",
         "section": false,
         "chords": [
           {
@@ -3715,7 +3715,7 @@
         "chords": []
       },
       {
-        "text": "",
+        "text": "                     ",
         "section": false,
         "chords": [
           {
@@ -4800,6 +4800,24 @@
             "strum": "per_beat"
           }
         ]
+      }
+    ],
+    "timeline": {
+      "audio": "",
+      "duration": 0.0,
+      "marks": []
+    }
+  },
+  {
+    "title": "新歌曲",
+    "capo": 0,
+    "bpm": 90,
+    "items": [],
+    "lyrics": [
+      {
+        "text": "",
+        "section": false,
+        "chords": []
       }
     ],
     "timeline": {
